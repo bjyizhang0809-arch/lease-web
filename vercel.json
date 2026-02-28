@@ -1,14 +1,8 @@
 {
   "functions": {
     "api/calculate.py": {
-      "runtime": "python3.12",
+      "runtime": "vercel-python@4",
       "maxDuration": 60
     }
-  },
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "/api/:path*"
-    }
-  ]
+  }
 }
